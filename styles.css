@@ -1,19 +1,20 @@
 * {
     font-family: Roboto;
 }
+body {
+    display: flex;    
+    flex: 1;
+
+}
 
 .header {
     display: flex;
     flex: 1;
     
-
     background-color: #1F2937;
     color: #FFF;
 }
 
-.link {
-    
-}
 
 .hero {
 
