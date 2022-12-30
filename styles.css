@@ -2,9 +2,7 @@
     font-family: Roboto;
 }
 body {
-    display: flex;    
-    flex: 1;
-
+    
 }
 
 .header {
