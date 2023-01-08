@@ -77,9 +77,18 @@ body {
 }
 
 .box{
+    display: flex;
+    justify-content: flex-end;
     width: 150px;
     height: 150px;
 }
+
+
+
+.subtext {
+    width: 150px;
+}
+
 
 .quote {
 
