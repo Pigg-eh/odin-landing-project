@@ -56,6 +56,19 @@ body {
     border: none;
 }
 
+.info {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 0;
+    
+}
+
+img {
+    display: flex;
+    align-items: center;
+}
+
+
 .quote {
 
 }
