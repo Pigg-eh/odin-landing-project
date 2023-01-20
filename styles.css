@@ -5,18 +5,17 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .header {
     display: flex;
-    flex: 2 1 0;
     justify-content: space-between;
     align-items: center;
     padding: 20px 150px;
-
     background-color: #1F2937;
     color: #FFF;
-
+ 
 }
 
 .hlogo{
@@ -96,16 +95,20 @@ body {
 
 
 .quote {
+    display: flex;
+    flex: 1;
     padding: 75px 250px 0px 250px;
     background-color: #E5E7EB;
 }
 
 .author {
+    display: flex;
+    flex: 1;
     text-align: right;
     padding: 0px 250px;
     background-color: #E5E7EB;
-}
+}  /*trying to fix quote*/
 
 .footer {
-    margin-top: auto;
+    margin-top: auto; /*still trying to fix footer*/
 }
