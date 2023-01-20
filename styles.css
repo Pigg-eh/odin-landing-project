@@ -1,6 +1,5 @@
 * {
-    font-family: Roboto;
-    
+    font-family: Roboto;  
 }
 
 body {
@@ -9,7 +8,7 @@ body {
 
 .container{ /* add to strech across screen*/
     display: flex;
-    flex: 1 1 0; 
+    flex: 1;
     flex-direction: column;
     justify-content: space-between; 
  
@@ -97,22 +96,24 @@ body {
 
 
 .subtext {
+    text-align: center;
     width: 150px;
     margin: 0px 30px;
 }
 
 
 .quote {
-    display: flex;
-    flex: 1 1 0;
     padding: 75px 250px 0px 250px;
+    background-color: #E5E7EB;
 }
 
 .author {
-    display: flex;
-    align-self: flex-end;
+    text-align: right;
     padding: 0px 250px;
+    background-color: #E5E7EB;
 }
+
+
 
 .footer {
     display: flex;
