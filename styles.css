@@ -6,6 +6,13 @@ body {
     
 }
 
+.container { /* add to strech across screen*/
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+}
+
 .header {
     display: flex;
     flex: 2 1 0;
