@@ -83,22 +83,32 @@ body {
     
 }
 
+
 .box{
     display: flex;
     justify-content: flex-end;
     width: 150px;
     height: 150px;
+    margin: 0px 30px;
 }
 
 
 
 .subtext {
     width: 150px;
+    margin: 0px 30px;
 }
 
 
 .quote {
+    padding: 75px 250px 0px 250px;
+}
 
+.author {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    padding: 0px 250px;
 }
 
 .footer {
